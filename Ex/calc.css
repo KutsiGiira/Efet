@@ -7,7 +7,7 @@ body{
     place-items: center;
     height: 100vh;
 }
-form{
+div{
     display: flex;
     flex-direction: column;
     border: black solid 1px;
@@ -22,6 +22,11 @@ form{
 #inp2{
     background-color: greenyellow;
     color:red;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
 }
 button{
     padding: 2px 5px;
